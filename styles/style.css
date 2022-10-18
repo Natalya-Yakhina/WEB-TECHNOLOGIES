@@ -1,3 +1,25 @@
 body {
-    background: gray;
+    background: greenyellow;
+    font-style: italic;
+}
+
+.list1{
+    list-style-type: georgian;
+}
+
+.cat1{
+    width: 600px;
+}
+
+.header1{
+    background: rgb(91, 99, 78);
+}
+
+.header2{
+    color: beige;
+}
+
+.link{
+    font-weight: bold;
+    text-decoration: none;
 }
