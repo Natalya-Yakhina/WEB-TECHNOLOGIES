@@ -39,6 +39,16 @@
             <h2>
               <?php echo $name; ?>
             </h2>
+            <h2>
+            <?php
+            $birthday = new DateTime('1990-03-20');
+
+            $currentTime = new DateTime();
+            $interval = $birthday->diff($currentTime);
+            var_dump($interval);
+            
+            ?>
+            </h2>
           </div>
         </div>
         <div class="w3-container">
@@ -53,6 +63,9 @@
 
           <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Навыки</b></p>
           
+                
+<!-- сформировать массив с данными для блока «Навыки»: навык и процент владения им.-->
+
           <?php
             $skills = [
               'Adobe Photoshop' => 90,
